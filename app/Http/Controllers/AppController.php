@@ -5,10 +5,7 @@ namespace App\Http\Controllers;
 use App\Areas;
 use App\Empleado;
 use App\Roles;
-use Illuminate\Contracts\Foundation\Application;
-use Illuminate\Contracts\View\Factory;
 use Illuminate\Http\RedirectResponse;
-use Illuminate\Http\Response;
 use Illuminate\Support\Facades\DB;
 use Illuminate\View\View;
 use Symfony\Component\HttpFoundation\Request;
@@ -18,7 +15,7 @@ class AppController extends Controller
     /**
      * Show list of Empleados
      *
-     * @return Application|Factory|Response|View
+     * @return View
      */
     public function index()
     {
@@ -30,7 +27,7 @@ class AppController extends Controller
 
     /**
      * Create view of form to create Empleado
-     * @return Application|Factory|Response|View
+     * @return View
      */
     public function create()
     {
