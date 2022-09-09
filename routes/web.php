@@ -16,3 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/app', 'AppController@index')->name('app');
+Route::get('/create', 'AppController@create')->name('create');
+Route::get('/edit/{id}', 'AppController@edit')->name('edit');
+Route::post('/store', 'AppController@store')->name('store');
+Route::post('/update/{id}', 'AppController@update')->name('update');
+Route::delete('/destroy/{id}', 'AppController@destroy')->name('destroy');

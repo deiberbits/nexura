@@ -1,0 +1,21 @@
+{
+"areas": [
+	{
+		"nombre" : "Administrativa y Financiera"
+	},
+	{
+		"nombre" : "Ingeniería"
+	},
+	{
+		"nombre" : "Desarrollo de Negocio"
+	},
+	{
+		"nombre" : "Proyectos"
+	},
+	{
+		"nombre" : "Servicios"
+	},
+	{
+		"nombre" : "Calidad"
+	}
+]}
